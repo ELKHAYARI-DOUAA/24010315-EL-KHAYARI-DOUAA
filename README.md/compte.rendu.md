@@ -1,8 +1,11 @@
 # 📊 Compte rendu Machine Learning & Analyse Statistique
 
 **Projet :** Analyse de l’impact de l’IA sur les emplois à l’horizon 2030
+
 **Dataset :** *AI_Impact_on_Jobs_2030.csv*
-**Auteur :** Douaa El Khayari
+
+**Auteur :** Douaa El Khayari CAC2 24010315
+
 **Contexte académique :** Analyse de données & Machine Learning
 
 ---
@@ -27,34 +30,6 @@ La variable principale étudiée dans la modélisation est **Skill_10**, transfo
 
 ---
 
-## 3. Analyse statistique descriptive
-
-### 3.1 Tableau des statistiques descriptives
-
-Un tableau de statistiques descriptives a été généré pour l’ensemble des variables numériques du dataset. Ce tableau présente :
-
-* La moyenne
-* La médiane
-* L’écart-type
-* Les valeurs minimale et maximale
-
-📊 **Tableau 1 – Statistiques descriptives des variables numériques**
-(Ce tableau est issu de la fonction `describe()` de *pandas* et est affiché dans le notebook.)
-
-Ces indicateurs permettent d’évaluer la dispersion des données, leur homogénéité et d’identifier d’éventuelles anomalies.
-
----
-
-### 3.2 Graphiques de distribution
-
-Des graphiques de distribution (histogrammes) ont été générés pour les principales variables numériques afin d’analyser leur forme (symétrie, concentration, dispersion).
-
-📈 **Figure 1 – Histogrammes des variables de compétences**
-
-L’analyse graphique montre que la majorité des variables présentent des distributions relativement équilibrées, ce qui est favorable à l’application de modèles statistiques et de Machine Learning.
-
----
-
 ### 3.2 Analyse de la distribution
 
 Les distributions des variables numériques montrent une relative homogénéité des scores de compétences, avec quelques variations selon les dimensions analysées. Cette étape est essentielle pour justifier l’utilisation de modèles statistiques et de Machine Learning.
@@ -69,7 +44,8 @@ Une matrice de corrélation a été construite à partir des variables numériqu
 
 En complément, une visualisation graphique sous forme de heatmap a été réalisée.
 
-📉 **Figure 2 – Heatmap de la matrice de corrélation**
+<img width="1299" height="1180" alt="image" src="https://github.com/user-attachments/assets/8d8f2263-ea9b-4e22-9346-17f8eff83725" />
+
 
 ### Interprétation :
 
@@ -98,7 +74,10 @@ Avant la modélisation, plusieurs étapes de prétraitement ont été appliquée
 Deux algorithmes de Machine Learning ont été implémentés :
 
 * **Logistic Regression** : modèle linéaire utilisé comme référence pour la classification binaire.
+* <img width="467" height="390" alt="image" src="https://github.com/user-attachments/assets/b464bd91-2010-4d6e-950d-c68856c1cb8e" />
+
 * **Random Forest Classifier** : algorithme d’ensemble basé sur des arbres de décision, capable de capturer des relations non linéaires.
+<img width="467" height="390" alt="image" src="https://github.com/user-attachments/assets/1dba5a0d-c8ec-446b-8a8d-daeaf2ca1781" />
 
 ---
 
@@ -122,6 +101,8 @@ Ces résultats montrent la supériorité du modèle Random Forest sur ce jeu de 
 La matrice de confusion du meilleur modèle (Random Forest) a été représentée graphiquement afin d’évaluer la qualité des prédictions.
 
 📉 **Figure 3 – Matrice de confusion (Random Forest)**
+<img width="467" height="390" alt="image" src="https://github.com/user-attachments/assets/fcf9870e-a84c-4c90-bed1-0fc0b93d70aa" />
+
 
 Cette visualisation met en évidence :
 
@@ -153,5 +134,3 @@ Pour aller plus loin, plusieurs pistes peuvent être envisagées :
 * Étudier l’importance des variables pour interpréter l’impact de l’IA sur les compétences
 
 ---
-
-📌 *Ce dépôt GitHub contient le dataset, les notebooks de traitement, les modèles entraînés ainsi que ce compte rendu analytique.*
