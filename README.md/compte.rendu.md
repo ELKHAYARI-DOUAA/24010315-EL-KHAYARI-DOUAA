@@ -124,13 +124,3 @@ Ce projet a permis de :
 Le **Random Forest Classifier** s’est révélé être le modèle le plus adapté pour ce problème, offrant des résultats très satisfaisants.
 
 ---
-
-## 8. Perspectives
-
-Pour aller plus loin, plusieurs pistes peuvent être envisagées :
-
-* Utiliser des modèles de régression avancés (XGBoost, Gradient Boosting)
-* Effectuer une sélection automatique des variables
-* Étudier l’importance des variables pour interpréter l’impact de l’IA sur les compétences
-
----
