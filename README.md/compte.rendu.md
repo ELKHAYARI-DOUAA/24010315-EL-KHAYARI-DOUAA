@@ -1,5 +1,5 @@
 # 📊 Compte rendu Machine Learning & Analyse Statistique
-![image_smallest](https://github.com/user-attachments/assets/2c6d966c-dff6-44d5-abe5-62dd948ce3e8)
+![Design sans titre (2)](https://github.com/user-attachments/assets/4b0c3797-6cc9-4b4c-be3c-d006c3318af2)
 
 **Projet :** Analyse de l’impact de l’IA sur les emplois à l’horizon 2030
 
