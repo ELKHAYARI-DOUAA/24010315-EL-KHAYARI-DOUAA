@@ -1,4 +1,6 @@
 # 📊 Compte rendu Machine Learning & Analyse Statistique
+![WhatsApp Image 2026-01-07 at 16 07 01](https://github.com/user-attachments/assets/bfdde817-a609-4267-b384-bb15dd62a73c)
+
 
 **Projet :** Analyse de l’impact de l’IA sur les emplois à l’horizon 2030
 
